@@ -1,0 +1,105 @@
+[Root]
+Most Recent Package=kurulum
+
+
+[Package|kurulum|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\raist\Desktop\motion_dedection\project\Package
+
+[Package|kurulum|Configure DAO ISAMs]
+Applicable=No
+
+[Package|kurulum|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|kurulum|Files Found]
+
+[Package|kurulum|Files Released]
+
+[Package|kurulum|Missing Dependency Information]
+C:\WINDOWS\vbalExpBar6.ocx=
+C:\Documents and Settings\raist\Desktop\motion_dedection\NTGraph.ocx=
+C:\Documents and Settings\raist\Desktop\motion_dedection\ezVidC60.ocx=
+C:\Documents and Settings\raist\Desktop\motion_dedection\project\SSubTmr6.dll=
+
+[Package|kurulum|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|kurulum|Files Added]
+
+[Package|kurulum|Files Removed]
+
+[Package|kurulum|Files In Project]
+C:\Documents and Settings\raist\Desktop\motion_dedection\project\hareket_takip.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Documents and Settings\raist\Desktop\motion_dedection\project\SSubTmr6.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Documents and Settings\raist\Desktop\motion_dedection\ezVidC60.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Documents and Settings\raist\Desktop\motion_dedection\NTGraph.ocx=Yes
+C:\WINDOWS\vbalExpBar6.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|kurulum|Configure Registry Files]
+Applicable=No
+
+[Package|kurulum|Configure Remote Servers]
+Applicable=No
+
+[Package|kurulum|Install Locations]
+C:\Documents and Settings\raist\Desktop\motion_dedection\project\hareket_takip.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Documents and Settings\raist\Desktop\motion_dedection\project\SSubTmr6.dll=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Documents and Settings\raist\Desktop\motion_dedection\ezVidC60.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Documents and Settings\raist\Desktop\motion_dedection\NTGraph.ocx=$(WinSysPath)
+C:\WINDOWS\vbalExpBar6.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|kurulum|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\raist\Desktop\motion_dedection\project\hareket_takip.exe=No
+
+[Package|kurulum|Distribution]
+Type=single
+Size=
+Title=Hareket Takip
+
+[Package|kurulum|IconGroups]
+Group0=Hareket Takip
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|kurulum|Hareket Takip]
+Icon1=hareket_takip.exe
+Title1=Hareket Takip
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|kurulum|Package]
+PackageFolder=C:\Documents and Settings\raist\Desktop\motion_dedection\project\Package
+ProjectFolder=C:\Documents and Settings\raist\Desktop\motion_dedection\project
+ServerSideCab=
+File1=C:\Documents and Settings\raist\Desktop\motion_dedection\project\Package\setup.exe
+File2=C:\Documents and Settings\raist\Desktop\motion_dedection\project\Package\Setup.Lst
+File3=C:\Documents and Settings\raist\Desktop\motion_dedection\project\Package\hareket_takip.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
